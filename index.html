@@ -7,6 +7,17 @@
     <title>Canvas</title>
 </head>
 <body>
-    Aqui será o canvas
 </body>
 </html>
+<canvas
+    width="600"
+    height="400">
+    
+</canvas>
+<script>
+    var screen = document.querySelector("canvas");
+    var brush = screen.getContext("2d");
+    brush.fillStyle = "lightgrey";
+    brush.fillRect(0, 0, 600, 400);
+    
+</script>
